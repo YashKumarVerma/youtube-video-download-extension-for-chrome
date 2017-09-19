@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="assets/swal.css">
+    <style>
+        html,body{
+            width:400px;
+            height: 400px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   
+<div class="row">
+   <div class="container">
+        <h4>Youtube Video Downloader </h4>
+        <small>Yash Kumar Verma</small>
+        <hr />
+
+        <div class="container">
+            <div class="form-group row">
+                <div class="col-10">
+                    <input class="form-control" type="url" placeholder="Enter Video Url" id="url-input">
+                </div>
+            </div>
+
+            <div id="response">
+                Click on <b>save video to disk</b> and enjoy. we'll get to you when we're done. Feel free to close this popup. <br> Wait if you want a download link only.
+            </div>
+
+            <br />
+            
+            <div class="form-group row">
+                <button id="saveToDisk" type="button" class="btn btn-outline-danger">Save Video to Disk</button>
+                &nbsp; &nbsp; 
+                <button id="giveLink" type="button" class="btn btn-outline-danger">Get Download Link</button>
+            </div>
+            
+        </div>
+
+   </div>
+</div>
+
+
+</body>
+<script src="assets/jquery.js"></script>
+<script src="assets/popper.js"></script>
+<script src="assets/bootstrap.js"></script>
+<script src="assets/swal.js"></script>
+<script src="assets/engine.js"></script>
+</html>
