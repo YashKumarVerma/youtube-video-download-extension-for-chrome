@@ -17,3 +17,6 @@ Installation
 
 
 > **2. Setup Server**
+
+ - move the `youtubeVideoDownloaderExtensionServer` folder to your local server root. (it would look like `c://Xampp/htdocs/youtubeVideoDownloaderExtensionServer`)
+ - start the server if it's not not already.
